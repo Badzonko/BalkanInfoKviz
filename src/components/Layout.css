@@ -1,0 +1,73 @@
+  /* N A V I G A T I O N  B A R */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkblue;
+    text-decoration: none;
+
+  }
+  
+  li {
+    float: left;
+    text-decoration: none;
+    display: grid;
+    justify-self: center;
+    align-content:center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ul{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+}
+img{
+    width: 100%;
+}
+  
+
+  /* N A V I G A T I O N  B A R */
+
+  /* L A Y O U T  H E R E */
+  
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:10px;
+   justify-self: center;
+}
+.izbor{
+    background-color:darkblue;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    color: white;
+
+
+}
+
+
+ /* L A Y O U T  H E R E */
+
+
+  /* D A M J A N O V I C  H E R E */
+.radovan{
+  display: grid;
+  justify-items: center;
+}
+.pitanja{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap:10px;
+}
+
+
+
+  /* D A M J A N O V I C  H E R E */
