@@ -65,12 +65,16 @@ img{
   display: grid;
   justify-items: center;
   grid-template-columns:auto;
-  background-color: aquamarine;
 }
 .damjan{
   height: 100%;
   width: 100%;
 
+}
+#radnaslov{
+  display: grid;
+  justify-items: center;
+  grid-template-columns:auto;
 }
 
 
