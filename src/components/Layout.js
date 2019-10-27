@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../components/Layout.css';
 
-
 class Layout extends Component {
     constructor(props) {
         super(props);
@@ -10,7 +9,7 @@ class Layout extends Component {
     render() { 
         return (  
             <div className="wrapper">
-                <button  className="izbor"><h1>Istorija</h1></button>
+               <a href="#radovan"><button className="izbor"><h1>Istorija</h1></button></a> 
                 <button className="izbor"><h1>Politika</h1></button>
                 <button className="izbor"><h1>Paranormalno</h1></button>
                 <button className="izbor"><h1>Sport</h1></button>

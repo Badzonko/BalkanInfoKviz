@@ -1,5 +1,8 @@
   /* N A V I G A T I O N  B A R */
-ul {
+html{
+  scroll-behavior: smooth;
+}
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -61,12 +64,15 @@ img{
 .radovan{
   display: grid;
   justify-items: center;
+  grid-template-columns:auto;
+  background-color: aquamarine;
 }
-.pitanja{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap:10px;
+.damjan{
+  height: 100%;
+  width: 100%;
+
 }
+
 
 
 
