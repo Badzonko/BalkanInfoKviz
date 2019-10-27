@@ -2,7 +2,7 @@ import React from 'react';
 import '../components/Layout.css';
 
 
-class  extends Component {
+class Radovan extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -12,4 +12,4 @@ class  extends Component {
     }
 }
  
-export default ;
+export default Radovan;
