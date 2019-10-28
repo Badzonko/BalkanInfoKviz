@@ -71,13 +71,30 @@ img{
   width: 100%;
 
 }
+
 #radnaslov{
   display: grid;
   justify-items: center;
   grid-template-columns:auto;
 }
 
-
-
-
   /* D A M J A N O V I C  H E R E */
+
+
+  /* D E R E T I C  H E R E */
+
+  #deretic{
+    display: grid;
+    justify-items: center;
+    grid-template-columns:auto;
+  }
+  .dereta{
+    display: grid;
+    justify-items: center;
+    grid-template-columns:auto;
+  }
+  .deretiic{
+    height: 100%;
+    width: 100%;
+  }
+    /* D E R E T I C  H E R E */

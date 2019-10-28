@@ -5,6 +5,10 @@ import Layout from './components/Layout';
 import Navbar from './components/Navbar';
 import Damjanovic from './components/Damjanovic';
 import Radovan from './components/Radovan';
+import Jovan from './components/Jovan';
+import Deretic from './components/Deretic';
+
+
 function App() {
   return (
 <div>
@@ -13,6 +17,8 @@ function App() {
 <Layout/>
 <br/>
 <Damjanovic/>
+<br/>
+<Jovan/>
 </div>
 
 
